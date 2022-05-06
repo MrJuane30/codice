@@ -1,0 +1,59 @@
+.card {
+    border-radius: 6px;
+    box-shadow: 0 2px 2px rgb(204 197 185 / 50%);
+    background-color: #FFFFFF;
+    color: #252422;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.cardB {
+    border-radius: 6px;
+    box-shadow: 0 2px 2px rgb(204 197 185 / 50%);
+    background-color: #FFFFFF;
+    color: #252422;
+    margin-bottom: 2px;
+    position: relative;
+    z-index: 1;
+}
+
+.card .icon-big {
+    font-size: 3rem;
+    min-height: 64px;
+}
+
+.card .numbers {
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.card .content {
+    padding: 15px 15px 10px 15px;
+}
+
+.card .footer{
+    padding: 0;
+    line-height: 30px;
+}
+
+.card .stats {
+    color: #a9a9a9;
+    font-weight: 300;
+}
+
+.icon-warning{
+    color: rgb(15, 75, 165);
+}
+
+.icon-success {
+    color: #7AC29A;
+}
+
+.icon-danger {
+    color: #EB5E28;
+}
+
+.icon-info {
+    color: #68B3C8;
+}
